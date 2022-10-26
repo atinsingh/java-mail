@@ -21,8 +21,8 @@ public class AppConfig {
         mailSender.setHost("smtp.gmail.com");
         mailSender.setPort(587);
 
-        mailSender.setUsername("info@pragra.io");
-        mailSender.setPassword("xxxxxx");
+        mailSender.setUsername("xxx");
+        mailSender.setPassword("xxx");
 
         Properties props = mailSender.getJavaMailProperties();
         props.put("mail.transport.protocol", "smtp");
