@@ -22,7 +22,7 @@ public class AppConfig {
         mailSender.setPort(587);
 
         mailSender.setUsername("info@pragra.io");
-        mailSender.setPassword("Pragra123");
+        mailSender.setPassword("xxxxxx");
 
         Properties props = mailSender.getJavaMailProperties();
         props.put("mail.transport.protocol", "smtp");
